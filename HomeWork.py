@@ -1,3 +1,5 @@
+# Task1
+
 #weekDay = int(input('Введите номер дня недели: '))
 #if weekDay == 6 or weekDay == 7:
 #    print('День недели является выходным')
@@ -5,14 +7,16 @@
 #    print('День недели не является выходным')
 
 
+# Task2
 
-#for i in 0,1:
+# for i in 0,1:
 #    for j in 0,1:
 #        for k in 0,1:
-#            res = not (i or j or k) == (not i) and (not j) and (not k)
-#            print(f'{i}{j}{k} = {res}')
+#            res = not (i or j or k) == ((not i) and (not j) and (not k))
+#            print(f'{i} {j} {k} = {res}')
 
 
+# Task3
 
 #x = int(input('Введите координату х: '))
 #y = int(input('Введите координату y: '))
@@ -29,25 +33,28 @@
 #    print('Координаты не должны быть равны нулю')
 
 
+# Task4
 
-#x = int(input('Введите номер четверти: '))
-#if x == 1:
+# x = int(input('Введите номер четверти: '))
+# if x == 1:
 #    print('x > 0, y > 0')
-#elif x == 2:
+# elif x == 2:
 #    print('x < 0, y > 0')
-#elif x == 3:
+# elif x == 3:
 #    print('x < 0, y < 0')
-#elif x == 4:
+# elif x == 4:
 #    print('x > 0, y < 0')
-#else:
+# else:
 #    print('Существует только 4 четверти')
 
 
-import math
+# Task 5
 
-x1 = float(input('Введите x1: '))
-y1 = float(input('Введите y1: '))
-x2 = float(input('Введите x2: '))
-y2 = float(input('Введите y2: '))
-AB = math.sqrt((x2-x1)**2 + (y2-y1)**2)
-print(AB)
+# import math
+
+# x1 = float(input('Введите x1: '))
+# y1 = float(input('Введите y1: '))
+# x2 = float(input('Введите x2: '))
+# y2 = float(input('Введите y2: '))
+# AB = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+# print(AB)
